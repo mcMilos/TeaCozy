@@ -75,7 +75,13 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: auto;
-}
+    }
+
+#mission h2 {
+    margin: 5px;  
+            }
+#mission h4 {
+    margin: 5px;  
+            }
 
 /* new section*/
