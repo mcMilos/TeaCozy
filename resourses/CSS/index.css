@@ -86,6 +86,15 @@ ul {
 
 /* TEA OF THE MONTH*/
 
+.tea_containers {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 30px auto 0 auto;
+}
+
 #tea_heading {
     font-family: Helvetica, sans-serif;
     }
@@ -105,6 +114,7 @@ ul {
     display: flex;
     flex-direction: column; 
     width: 300px; 
+    margin: 10px;
 }
 #undertext {
     height:auto;
@@ -116,14 +126,6 @@ ul {
     font-size: 22px;
 }
 
-.tea_containers {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1000px;
-    flex-wrap: wrap;
-    margin: 30px auto 0 auto;
-}
-
 /* LOCATIONS*/
 
 .locations {
@@ -133,6 +135,7 @@ ul {
     background-position: center;
     height: 500px;
     max-width: 1200px;
+    width: auto;
     margin: 70px auto 0 auto;
     display: flex;
     justify-content: center;
