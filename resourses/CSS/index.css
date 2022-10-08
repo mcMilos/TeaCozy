@@ -123,3 +123,54 @@ ul {
     flex-wrap: wrap;
     margin: 30px auto 0 auto;
 }
+
+/* LOCATIONS*/
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+    .locations h2 {
+        width: 500px;
+        margin: auto auto 15px auto;
+    }
+
+    .location_containers {
+        display: flex
+        }
+
+    .area_container{
+        background-color: black;
+        width: 300px;
+        opacity: 1;
+        margin: 0 20px;              
+    }
+
+    /* FOOTER*/
+.footer {
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footer h2{
+    margin:5px auto;
+}
+
+#copyright {
+    text-align: left;
+    margin: auto auto auto 20px;
+}
